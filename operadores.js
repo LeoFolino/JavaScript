@@ -52,3 +52,24 @@ console.log(resultadoRelacional9)
 console.log(resultadoRelacional10)
 console.log(resultadoRelacional11)
 console.log(resultadoRelacional12)
+
+//------------------OPERADORES LOGICOS-----------------------------------
+
+let nota1 = 7
+let nota2 = 9
+let resultadoBool
+
+// and
+resultado = (nota1 > 6) && (nota2 > 6)
+console.log(resultadoBool) // devuelve True
+
+resultado = (nota1 > 6) && (nota2 < 6)
+console.log(resultadoBool) // devuelve False
+
+// or
+resultado = (nota1 > 6) || (nota2 < 6)
+console.log(resultadoBool) // True
+
+// not
+resultado = !(nota1 > 6)
+console.log(resultadoBool) // False, El operador ! (NOT) invierte el valor booleano. Entonces, !(nota1 > 6) se convierte en !true, lo que resulta en false.
