@@ -35,7 +35,8 @@ console.log(rdoSuma)
 function promedio(){
     let rdoSuma = suma(7,9,8)
     let rdoPromedio = rdoSuma / 3
-    return rdoPromedio
+    return rdoPromedio    // cuando nuestro codigo ejecuta una funcion, ejecuta todas las lineas hasta que encuentra un return. Asi que return debe ser siempre la ultima linea.
+                          // Si siguieramos escribiendo por debajo del return, no se va a ejecutar ya que return corta la ejecucion de la funcion
 }
 
 let promedioObtenido = promedio()
