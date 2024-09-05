@@ -1,0 +1,2 @@
+// Conversor de Monedas: Crea una función que convierta una cantidad de dinero de una
+//  moneda a otra. Usa variables para almacenar tasas de cambio y condicionales para manejar diferentes tipos de monedas.
